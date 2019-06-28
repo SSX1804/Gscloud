@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Data source</title>
+    <link rel="stylesheet" href="./CSS/Data crowdsourcing.css">
+</head>
+<body>
+    <!--容器 -->
+    <div class="container">
+        <!-- 顶端蓝色导航 -->
+        <div class="fast_nav">
+            <div class="wrapper">
+                <!-- 顶端导航logo -->
+                <div class="logo"><img src="./image/Data crowdsourcing/logo.png" alt=""></div>
+                <!-- 顶端导航菜单 -->
+                <ul class="nav">
+                    <li>高级检索</li>
+                    <li>数据资源</li>
+                    <li>数据众包</li>
+                    <li>在线计算</li>
+                    <li>平台信息</li>
+                </ul>
+               <!-- 顶端导航登陆 -->
+                <div  class="signin">
+                    <img class="person" src="./image/Data crowdsourcing/4.png" alt="">
+                 <span class="signin">登录</span>   
+               </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+        <a dirid="crowdsourcing" role="button" data-toggle="collapse" data-parent="#accordion" href="#crowdsourcing" aria-expanded="true" aria-controls="crowdsourcing">
+            <span class="tab-dir-title dir-title">数据众包</span>
+        </a>
+    <div>
+
+    <div class="container">
+        <div class="second_nav">
+            <div class="leftnav">
+                   <ul class="nav">
+                   <li>需求汇</li>
+                   <li>任务汇</li>
+                   <li>数据汇</li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="second_nav">
+            <div class="rightnav">
+                <ul class="nav">
+                <li>平台首页</li>
+                <li>数据汇</li>
+                </ul>
+            </div>
+        <div>
+    <div>
+
+    <div class="col-md-9 my-col-md-80">
+        <div class="breadcrumb-fixed">
+        <ul class="breadcrumb">
+            <li><a href="/">平台首页</a></li>
+            <li><a href="/crowdsourcing/data/">数据汇</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <table style="width: 100%;margin-bottom: 5px;">
+            <tbody><tr>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-success sort-btn uptime">
+                            <span>上传时间</span>
+                            <span class="glyphicon glyphicon-play sort-dir desc"></span>
+                        </button>
+                        <button type="button" class="btn btn-default sort-btn downtimes">
+                            <span>下载次数</span>
+                            <span class="glyphicon glyphicon-play sort-dir desc"></span>
+                        </button>
+                    </div>   
+                </td>
+                <td style="width: 350px">
+                    <div style="position: relative;height: 30px">
+                        <div class="cancel-search-btn" style="display: none;">
+                            <span class="glyphicon glyphicon-remove" title="重置"></span>
+                        </div>
+                        <div class="input-group" style="position: absolute;margin-top: -4px">
+                            <input type="text" class="form-control" id="user-data-keywords">
+                            <span class="input-group-addon" id="data-search-btn">搜索</span>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody></table>
+    
+    
+        <div>
+            <div id="data_listview" class="dlv">
+                <div class="dlv-wrap" style="overflow-y: hidden; min-height: 400px;">
+                    <table class="dlv-body" style="width:100%" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr class="dlv-row dlv-row-0">
+                            <td class="dlv-cell" style="width: 160px;">
+                                <div style="text-align: center; width: 100%;">
+                                    <a href="/crowdsourcing/data/detail/51756266ea8c41c088a4da0e6713d274" style="margin-right: 5px;">
+                                        <img src="./image/Data crowdsourcing/图片1.jpg" style="width: 160px;height: 120px"></a></div></td><td class="dlv-cell">
+                                            <div>
+                                                <div class="container-fluid" style="padding: 5px 0px;">
+                                                <div class="row" style="padding: 5px 0px">
+                                                    <div class="col-xs-9">            
+                                                    <a href="/crowdsourcing/data/detail/51756266ea8c41c088a4da0e6713d274" target="_blank" class="user-data-title" style="text-decoration: none;">
+                                                        中国各级行政,河流,马路等基本要素矢量数据</a>
+                                                        <span>[2019-03-10]</span>        
+                                                    </div>        
+                                                    <div class="col-xs-3" style="text-align: right;padding-left: 0px;">
+                                                        <span id="filesize-51756266ea8c41c088a4da0e6713d274">
+                                                        1个文件, 共867.5MB
+                                                        </span>            
+                                                        <span class="glyphicon glyphicon-refresh filesize-update-btn" onclick="javascript:PubDataList.update_size('51756266ea8c41c088a4da0e6713d274')">
+                                                        </span>
+                                                        </div>
+                                                        </div>
+                                                            <div class="row" style="height: 60px;">
+                                                                        <div class="col-xs-12 data-abstract">
+                                                                        <div style="text-indent: 2em;color: gray">
+                                                                        这是中国各级行政区划,河流,马路,.湖泊矢量数据,相应的属性也比较完整.数据来源是openstreetmap,目前不包括台湾.欢迎使用!</div>
+                                                                            </div>    
+                                                                        </div>    
+                                                                        <div class="row" style="margin-top: 8px;">
+                                                                            <div class="col-xs-6">
+                                                                                <span>由 <b>xiaoxiong</b> 分享，下载需要            
+                                                                                    <b style="color: red">1</b> 积分，已下载 <b>401</b> 次</span>        </div>        
+                                                                                    <div class="col-xs-6" style="text-align: right">            
+                                                                                        <a href="/admin/share/update_thumb_html/51756266ea8c41c088a4da0e6713d274" 
+                                                                                        class="dataset-update-thumb">重新上传缩略图</a>            
+                                                                                        <a href="javascript:PubDataList.delete('51756266ea8c41c088a4da0e6713d274')" 
+                                                                                        class="dataset-del-btn">删除</a>            
+                                                                                        <a href="/crowdsourcing/data/detail/51756266ea8c41c088a4da0e6713d274" target="_blank">查看</a>        
+                                                                                    </div>    </div></div></div></td></tr><tr class="dlv-row dlv-row-1">
+                                                                                        <td class="dlv-cell" style="width: 160px;">
+                                                                                            <div style="text-align: center; width: 100%;">
+                                                                                                <a href="/crowdsourcing/data/detail/7308ef093dc542a4a51ba6f7965af615" style="margin-right: 5px;">
+                                                                                                    <img src="./image/Data crowdsourcing/图片2.jpg" style="width: 160px;height: 120px">
+                                                                                                </a></div></td><td class="dlv-cell"><div><div class="container-fluid" style="padding: 5px 0px;">    <div class="row" style="padding: 5px 0px">        
+                                                                                                    <div class="col-xs-9">            
+                                                                                                        <a href="/crowdsourcing/data/detail/7308ef093dc542a4a51ba6f7965af615" target="_blank" class="user-data-title" style="text-decoration: none;">中国县级城市</a>
+                                                                                                                    <span>[2018-11-26]</span>        
+                                                                                                                </div>        
+                                                                                                                <div class="col-xs-3" style="text-align: right;padding-left: 0px;">            
+                                                                                                                    <span id="filesize-7308ef093dc542a4a51ba6f7965af615">8个文件, 共40.3MB</span>         
+                                                                                                                       <span class="glyphicon glyphicon-refresh filesize-update-btn" onclick="javascript:PubDataList.update_size('7308ef093dc542a4a51ba6f7965af615')"></span>        
+                                                                                                                    </div>    </div>    <div class="row" style="height: 60px;">        
+                                                                                                                        <div class="col-xs-12 data-abstract">            
+                                                                                                                            <div style="text-indent: 2em;color: gray">数据是参照全国各县级区划图件，经过栅格配准、边界矢量化，结合野外实测资料。县与县级市、市辖区、自治县、旗、自治旗、林区、特区一道，作为“县级行政区”，是中国法定的二级行政区、事实上的三级行政区，由地级行政区代为管辖，或由省、直辖市、自治区直辖。县级市不同于县，它跨入“市”的行列，属于大城市之末，小城镇和广大农村之首。县级市作为县级区域的政治、经济、文化、信息的中心，上接大中城市，下联小城镇和广大农村，起着缓解大中城市压力，带动、引导和促进县域经济、社会各项事业发展的作用，因此，县级市政府职能具有自己的特点，区别于县政府职能</div>        </div>    </div>    <div class="row" style="margin-top: 8px;">        <div class="col-xs-6">            <span>由 <b>风动心随</b> 分享，下载需要            <b style="color: red">10</b> 积分，已下载 <b>337</b> 次</span>        </div>        <div class="col-xs-6" style="text-align: right">            <a href="/admin/share/update_thumb_html/7308ef093dc542a4a51ba6f7965af615" class="dataset-update-thumb">重新上传缩略图</a>            <a href="javascript:PubDataList.delete('7308ef093dc542a4a51ba6f7965af615')" class="dataset-del-btn">删除</a>            <a href="/crowdsourcing/data/detail/7308ef093dc542a4a51ba6f7965af615" target="_blank">查看</a>        </div>    </div></div></div></td></tr><tr class="dlv-row dlv-row-0"><td class="dlv-cell" style="width: 160px;"><div style="text-align: center; width: 100%;"><a href="/crowdsourcing/data/detail/edda610d56024e6ebd8cb6704133ae14" style="margin-right: 5px;"><img src="./image/Data crowdsourcing/图片3.jpg" style="width: 160px;height: 120px"></a></div></td><td class="dlv-cell"><div><div class="container-fluid" style="padding: 5px 0px;">    <div class="row" style="padding: 5px 0px">        <div class="col-xs-9">            <a href="/crowdsourcing/data/detail/edda610d56024e6ebd8cb6704133ae14" target="_blank" class="user-data-title" style="text-decoration: none;">基于Landsat影像的2000年张家口市土地利用类型数据</a>            <span>[2018-10-26]</span>        </div>        <div class="col-xs-3" style="text-align: right;padding-left: 0px;">            <span id="filesize-edda610d56024e6ebd8cb6704133ae14">8个文件, 共307.3MB</span>            <span class="glyphicon glyphicon-refresh filesize-update-btn" onclick="javascript:PubDataList.update_size('edda610d56024e6ebd8cb6704133ae14')"></span>        </div>    </div>    <div class="row" style="height: 60px;">        <div class="col-xs-12 data-abstract">            <div style="text-indent: 2em;color: gray">使用Landsat7-10月数据，选取云量小，地物信息丰富的影像，对张家口市进行二级分类。 主要土地利用类型包括中覆盖度草地、低覆盖度草地、高覆盖度草地、其他建设用地、其他林地、农村居民点、城镇用地、旱地、有林地、水库坑塘、水田、永久性冰川雪地、沙地、河渠、湖泊、灌木林、疏林地、盐碱地、裸土地等。</div>        </div>    </div>    <div class="row" style="margin-top: 8px;">        <div class="col-xs-6">            <span>由 <b>GSCloud</b> 分享，下载需要            <b style="color: red">10</b> 积分，已下载 <b>56</b> 次</span>        </div>        <div class="col-xs-6" style="text-align: right">            <a href="/admin/share/update_thumb_html/edda610d56024e6ebd8cb6704133ae14" class="dataset-update-thumb">重新上传缩略图</a>            <a href="javascript:PubDataList.delete('edda610d56024e6ebd8cb6704133ae14')" class="dataset-del-btn">删除</a>            <a href="/crowdsourcing/data/detail/edda610d56024e6ebd8cb6704133ae14" target="_blank">查看</a>        </div>    </div></div></div></td></tr><tr class="dlv-row dlv-row-1"><td class="dlv-cell" style="width: 160px;"><div style="text-align: center; width: 100%;"><a href="/crowdsourcing/data/detail/345196a421304165aa7405357b3666df" style="margin-right: 5px;"><img src="./image/Data crowdsourcing/图片4.jpg" style="width: 160px;height: 120px"></a></div></td><td class="dlv-cell"><div><div class="container-fluid" style="padding: 5px 0px;">    <div class="row" style="padding: 5px 0px">        <div class="col-xs-9">            <a href="/crowdsourcing/data/detail/345196a421304165aa7405357b3666df" target="_blank" class="user-data-title" style="text-decoration: none;">基于Landsat影像的1990年张家口市土地利用类型数据</a>            <span>[2018-10-26]</span>        </div>        <div class="col-xs-3" style="text-align: right;padding-left: 0px;">            <span id="filesize-345196a421304165aa7405357b3666df">8个文件, 共242.4MB</span>            <span class="glyphicon glyphicon-refresh filesize-update-btn" onclick="javascript:PubDataList.update_size('345196a421304165aa7405357b3666df')"></span>        </div>    </div>    <div class="row" style="height: 60px;">        <div class="col-xs-12 data-abstract">            <div style="text-indent: 2em;color: gray">使用Landsat7-10月数据，选取云量小，地物信息丰富的影像，对张家口市进行二级分类。
+    主要土地利用类型包括中覆盖度草地、低覆盖度草地、高覆盖度草地、其他建设用地、其他林地、农村居民点、城镇用地、旱地、有林地、水库坑塘、水田、永久性冰川雪地、沙地、河渠、湖泊、灌木林、疏林地、盐碱地、裸土地等。
+</div>
+        
+</div>    
+</div>    
+<div class="row" style="margin-top: 8px;">        
+    <div class="col-xs-6">            
+        <span>由 <b>GSCloud</b> 分享，下载需要            
+            <b style="color: red">10</b> 积分，已下载 <b>19</b> 次</span>        </div>        
+            <div class="col-xs-6" style="text-align: right">           
+                 <a href="/admin/share/update_thumb_html/345196a421304165aa7405357b3666df" class="dataset-update-thumb">重新上传缩略图</a>            <a href="javascript:PubDataList.delete('345196a421304165aa7405357b3666df')" class="dataset-del-btn">删除</a> 
+                            <a href="/crowdsourcing/data/detail/345196a421304165aa7405357b3666df" target="_blank">查看</a>        </div>    </div></div></div></td></tr><tr class="dlv-row dlv-row-0"><td class="dlv-cell" style="width: 160px;">
+                                <div style="text-align: center; width: 100%;"><a href="/crowdsourcing/data/detail/250833e5f6fc47b9b56294c9a308ebb0" style="margin-right: 5px;">
+                                    <img src="./image/Data crowdsourcing/图片5.jpg" style="width: 160px;height: 120px"></a></div></td><td class="dlv-cell"><div><div class="container-fluid" style="padding: 5px 0px;">    <div class="row" style="padding: 5px 0px">        <div class="col-xs-9">            <a href="/crowdsourcing/data/detail/250833e5f6fc47b9b56294c9a308ebb0" target="_blank" class="user-data-title" style="text-decoration: none;">2009年和2015年青海省玛多县植被覆盖度数据</a>            <span>[2018-10-24]</span>        </div>        <div class="col-xs-3" style="text-align: right;padding-left: 0px;">            <span id="filesize-250833e5f6fc47b9b56294c9a308ebb0">8个文件, 共418.3MB</span>            <span class="glyphicon glyphicon-refresh filesize-update-btn" onclick="javascript:PubDataList.update_size('250833e5f6fc47b9b56294c9a308ebb0')"></span>        </div>    </div>    <div class="row" style="height: 60px;">        <div class="col-xs-12 data-abstract">            <div style="text-indent: 2em;color: gray">使用Landsat遥感影像对应年份（2009年和2015年）6-9月份数据，计算玛多县域范围的植被覆盖度。</div>        </div>    </div>    <div class="row" style="margin-top: 8px;">        <div class="col-xs-6">            <span>由 <b>GSCloud</b> 分享，下载需要            <b style="color: red">8</b> 积分，已下载 <b>27</b> 次</span>        </div>        <div class="col-xs-6" style="text-align: right">            <a href="/admin/share/update_thumb_html/250833e5f6fc47b9b56294c9a308ebb0" class="dataset-update-thumb">重新上传缩略图</a>            <a href="javascript:PubDataList.delete('250833e5f6fc47b9b56294c9a308ebb0')" class="dataset-del-btn">删除</a>            <a href="/crowdsourcing/data/detail/250833e5f6fc47b9b56294c9a308ebb0" target="_blank">查看</a>        </div>    </div></div></div></td></tr><tr class="dlv-row dlv-row-1"><td class="dlv-cell" style="width: 160px;"><div style="text-align: center; width: 100%;"><a href="/crowdsourcing/data/detail/aba6356696324a409797c503fad24b1d" style="margin-right: 5px;"><img src="./image/Data crowdsourcing/图片6.jpg" style="width: 160px;height: 120px"></a></div></td><td class="dlv-cell"><div><div class="container-fluid" style="padding: 5px 0px;">    <div class="row" style="padding: 5px 0px">        <div class="col-xs-9">            <a href="/crowdsourcing/data/detail/aba6356696324a409797c503fad24b1d" target="_blank" class="user-data-title" style="text-decoration: none;">2009年及2015年青海省玛多县湿地类型数据</a>            <span>[2018-10-24]</span>        </div>        <div class="col-xs-3" style="text-align: right;padding-left: 0px;">            <span id="filesize-aba6356696324a409797c503fad24b1d">16个文件, 共10.9MB</span>            <span class="glyphicon glyphicon-refresh filesize-update-btn" onclick="javascript:PubDataList.update_size('aba6356696324a409797c503fad24b1d')"></span>        </div>    </div>    <div class="row" style="height: 60px;">        <div class="col-xs-12 data-abstract">            <div style="text-indent: 2em;color: gray">使用使用2009年6-9月份的Landsat TM数据和2015年6-9月份Landsat 8数据，对玛多县域范围进行不同湿地类型分类，湿地类型分为湖泊湿地、河流湿地、沼泽湿地、人工湿地四类。</div>        </div>    </div>    <div class="row" style="margin-top: 8px;">        <div class="col-xs-6">            <span>由 <b>GSCloud</b> 分享，下载需要            <b style="color: red">10</b> 积分，已下载 <b>21</b> 次</span>        </div>        <div class="col-xs-6" style="text-align: right">            <a href="/admin/share/update_thumb_html/aba6356696324a409797c503fad24b1d" class="dataset-update-thumb">重新上传缩略图</a>            <a href="javascript:PubDataList.delete('aba6356696324a409797c503fad24b1d')" class="dataset-del-btn">删除</a>            <a href="/crowdsourcing/data/detail/aba6356696324a409797c503fad24b1d" target="_blank">查看</a>        </div>    </div></div></div></td></tr><tr class="dlv-row dlv-row-0"><td class="dlv-cell" style="width: 160px;"><div style="text-align: center; width: 100%;"><a href="/crowdsourcing/data/detail/8c4e54a27dd64e79a5c1997fb6f9416c" style="margin-right: 5px;"><img src="./image/Data crowdsourcing/图片7.jpg" style="width: 160px;height: 120px"></a></div></td><td class="dlv-cell"><div><div class="container-fluid" style="padding: 5px 0px;">    <div class="row" style="padding: 5px 0px">        <div class="col-xs-9">            <a href="/crowdsourcing/data/detail/8c4e54a27dd64e79a5c1997fb6f9416c" target="_blank" class="user-data-title" style="text-decoration: none;">2015年武汉市土地利用类型数据</a>            <span>[2018-10-24]</span>        </div>        <div class="col-xs-3" style="text-align: right;padding-left: 0px;">            <span id="filesize-8c4e54a27dd64e79a5c1997fb6f9416c">7个文件, 共55.2MB</span>            <span class="glyphicon glyphicon-refresh filesize-update-btn" onclick="javascript:PubDataList.update_size('8c4e54a27dd64e79a5c1997fb6f9416c')"></span>        </div>    </div>    <div class="row" style="height: 60px;">        <div class="col-xs-12 data-abstract">            <div style="text-indent: 2em;color: gray">根据Landsat8遥感影像，对武汉市进行土地利用类型解译，山地水田、丘陵水田、平原水田、山地旱地、丘陵旱地、平原旱地、有林地、灌木林、疏林地、其它林地、高覆盖度草地、中覆盖度草地、低覆盖度草地、河渠、湖泊、水库坑塘、滩地、城镇用地、农村居民点、其它建设用地、沼泽地、裸土地、裸岩石质地。
+    所使用的影像信息如下：
+    LC81220392015243LGN00、LC81230382015234LGN00、LC81230392015234LGN00、LE71230392015210EDC00</div>
+        </div>
+
+        </div>
+            <div class="row" style="margin-top: 8px;">       
+            <div class="col-xs-6">            
+                <span>由 <b>GSCloud</b> 分享，下载需要            
+                    <b style="color: red">10</b> 积分，已下载 <b>93</b> 次
+                </span>        
+            </div>        
+            <div class="col-xs-6" style="text-align: right">            
+            <a href="/admin/share/update_thumb_html/8c4e54a27dd64e79a5c1997fb6f9416c" class="dataset-update-thumb">重新上传缩略图</a>            <a href="javascript:PubDataList.delete('8c4e54a27dd64e79a5c1997fb6f9416c')" class="dataset-del-btn">删除</a>            <a href="/crowdsourcing/data/detail/8c4e54a27dd64e79a5c1997fb6f9416c" target="_blank">查看</a>        </div>    </div></div></div></td></tr><tr class="dlv-row dlv-row-1"><td class="dlv-cell" style="width: 160px;"><div style="text-align: center; width: 100%;"><a href="/crowdsourcing/data/detail/56e365c5886d455baf1a1973eb259d18" style="margin-right: 5px;"><img src="./image/Data crowdsourcing/图片8.jpg" style="width: 160px;height: 120px"></a></div></td><td class="dlv-cell"><div><div class="container-fluid" style="padding: 5px 0px;">    <div class="row" style="padding: 5px 0px">        <div class="col-xs-9">            <a href="/crowdsourcing/data/detail/56e365c5886d455baf1a1973eb259d18" target="_blank" class="user-data-title" style="text-decoration: none;">2014年河南省黄河流域湿地类型数据</a>            <span>[2018-10-23]</span>        </div>        <div class="col-xs-3" style="text-align: right;padding-left: 0px;">            <span id="filesize-56e365c5886d455baf1a1973eb259d18">7个文件, 共7.5MB</span>            <span class="glyphicon glyphicon-refresh filesize-update-btn" onclick="javascript:PubDataList.update_size('56e365c5886d455baf1a1973eb259d18')"></span>        </div>    </div>    <div class="row" style="height: 60px;">        <div class="col-xs-12 data-abstract">            <div style="text-indent: 2em;color: gray">基于2014年资源三号卫星影像，将河南省黄河流域的土地利用类型分为6大类：农田01、林地02、草地03、建筑用地04、裸地05、湿地，其中湿地细分为6小类，分别是：河流水域06、河流洪泛湿地07、农用湿地08、水库/库区湿地09、人工河渠10、城市景观河娱乐型湿地11，总共11类。</div>        </div>    </div>    <div class="row" style="margin-top: 8px;">        <div class="col-xs-6">            <span>由 <b>GSCloud</b> 分享，下载需要            <b style="color: red">10</b> 积分，已下载 <b>24</b> 次</span>        </div>        <div class="col-xs-6" style="text-align: right">            <a href="/admin/share/update_thumb_html/56e365c5886d455baf1a1973eb259d18" class="dataset-update-thumb">重新上传缩略图</a>            <a href="javascript:PubDataList.delete('56e365c5886d455baf1a1973eb259d18')" class="dataset-del-btn">删除</a>            <a href="/crowdsourcing/data/detail/56e365c5886d455baf1a1973eb259d18" target="_blank">查看</a>        </div>    </div></div></div></td></tr><tr class="dlv-row dlv-row-0"><td class="dlv-cell" style="width: 160px;"><div style="text-align: center; width: 100%;"><a href="/crowdsourcing/data/detail/3047b38f5222436daf38bc067da098e4" style="margin-right: 5px;"><img src="./image/Data crowdsourcing/图片9.jpg" style="width: 160px;height: 120px"></a></div></td><td class="dlv-cell"><div><div class="container-fluid" style="padding: 5px 0px;">    <div class="row" style="padding: 5px 0px">        <div class="col-xs-9">            <a href="/crowdsourcing/data/detail/3047b38f5222436daf38bc067da098e4" target="_blank" class="user-data-title" style="text-decoration: none;">2013年石家庄市土地利用分类数据</a>            <span>[2018-10-22]</span>        </div>        <div class="col-xs-3" style="text-align: right;padding-left: 0px;">            <span id="filesize-3047b38f5222436daf38bc067da098e4">2个文件, 共1.8MB</span>            <span class="glyphicon glyphicon-refresh filesize-update-btn" onclick="javascript:PubDataList.update_size('3047b38f5222436daf38bc067da098e4')"></span>        </div>    </div>    <div class="row" style="height: 60px;">        <div class="col-xs-12 data-abstract">            <div style="text-indent: 2em;color: gray">石家庄市2013年土地利用类型数据，共七大类，分别是耕地01、园地02、林地03、草地04、建筑用地05、水体06和其它07。所使用的遥感影像为LC81240342013363LGN00和LC81240332013363LGN00的Landsat8影像。</div>        </div>    </div>    <div class="row" style="margin-top: 8px;">        <div class="col-xs-6">            <span>由 <b>GSCloud</b> 分享，下载需要            <b style="color: red">10</b> 积分，已下载 <b>31</b> 次</span>        </div>        <div class="col-xs-6" style="text-align: right">            <a href="/admin/share/update_thumb_html/3047b38f5222436daf38bc067da098e4" class="dataset-update-thumb">重新上传缩略图</a>            <a href="javascript:PubDataList.delete('3047b38f5222436daf38bc067da098e4')" class="dataset-del-btn">删除</a>            <a href="/crowdsourcing/data/detail/3047b38f5222436daf38bc067da098e4" target="_blank">查看</a>        </div>    </div></div></div></td></tr><tr class="dlv-row dlv-row-1"><td class="dlv-cell" style="width: 160px;"><div style="text-align: center; width: 100%;"><a href="/crowdsourcing/data/detail/a90dcfd960014004b064cd6f31a411f9" style="margin-right: 5px;"><img src="./image/Data crowdsourcing/图片10.jpg" style="width: 160px;height: 120px"></a></div></td><td class="dlv-cell"><div><div class="container-fluid" style="padding: 5px 0px;">    <div class="row" style="padding: 5px 0px">        <div class="col-xs-9">            <a href="/crowdsourcing/data/detail/a90dcfd960014004b064cd6f31a411f9" target="_blank" class="user-data-title" style="text-decoration: none;">基于MODIS十多年数据的全国气温变化周期图</a>            <span>[2017-05-03]</span>        </div>        <div class="col-xs-3" style="text-align: right;padding-left: 0px;">            <span id="filesize-a90dcfd960014004b064cd6f31a411f9">1个文件, 共2.8MB</span>            <span class="glyphicon glyphicon-refresh filesize-update-btn" onclick="javascript:PubDataList.update_size('a90dcfd960014004b064cd6f31a411f9')"></span>        </div>    </div>    <div class="row" style="height: 60px;">        <div class="col-xs-12 data-abstract">            <div style="text-indent: 2em;color: gray">从2001开始的MODIS数据，通过气温数据观测拟合，以一年36旬（一旬十天）为周期统计得出全国各地温度变化周期图</div>        </div>    </div>    <div class="row" style="margin-top: 8px;">        <div class="col-xs-6">            <span>由 <b>微尘</b> 分享，下载需要            <b style="color: red">10</b> 积分，已下载 <b>256</b> 次</span>        </div>        <div class="col-xs-6" style="text-align: right">            <a href="/admin/share/update_thumb_html/a90dcfd960014004b064cd6f31a411f9" class="dataset-update-thumb">重新上传缩略图</a>            <a href="javascript:PubDataList.delete('a90dcfd960014004b064cd6f31a411f9')" class="dataset-del-btn">删除</a>            <a href="/crowdsourcing/data/detail/a90dcfd960014004b064cd6f31a411f9" target="_blank">查看</a>        </div>    </div></div></div></td></tr></tbody></table></div></div>
+        </div>
+        <div>
+            <div id="pager1" style="background-color: #ffffff" class="pageContainer">
+            <div id="info1" class="pagination-info" style="float: right">
+                <div>
+                    <span>显示第 1 到 10 条，共 16 条记录，已选择 0 条</span>
+                </div>
+            </div>
+        <div class="pagination dlv-pager"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><select class="pagination-page-list"><option value="10">10</option><option value="20">20</option><option value="40">40</option><option value="60">60</option></select></td><td style="display: none;"><div class="pagination-btn-separator"></div></td><td><a href="javascript:void(0)" class="l-btn l-btn-plain l-btn-disabled"><span class="l-btn-left"><span class="l-btn-text"><span class="l-btn-empty pagination-first">&nbsp;</span></span></span></a></td><td><a href="javascript:void(0)" class="l-btn l-btn-plain l-btn-disabled"><span class="l-btn-left"><span class="l-btn-text"><span class="l-btn-empty pagination-prev">&nbsp;</span></span></span></a></td><td><div class="pagination-btn-separator"></div></td><td><span style="padding-left:6px;">第</span></td><td><input type="text" size="3" value="1" class="pagination-num"></td><td><span style="padding-right:6px;">共 2 页</span></td><td><div class="pagination-btn-separator"></div></td><td><a href="javascript:void(0)" class="l-btn l-btn-plain"><span class="l-btn-left"><span class="l-btn-text"><span class="l-btn-empty pagination-next">&nbsp;</span></span></span></a></td><td><a href="javascript:void(0)" class="l-btn l-btn-plain"><span class="l-btn-left"><span class="l-btn-text"><span class="l-btn-empty pagination-last">&nbsp;</span></span></span></a></td><td><div class="pagination-btn-separator"></div></td><td><a href="javascript:void(0)" class="l-btn l-btn-plain"><span class="l-btn-left"><span class="l-btn-text"><span class="l-btn-empty pagination-load">&nbsp;</span></span></span></a></td></tr></tbody></table></div></div>
+
+
+        <script type="text/html" id="tmpl:share-data-item">
+    <div class="container-fluid" style="padding: 5px 0px;">
+        <div class="row" style="padding: 5px 0px">
+            <div class="col-xs-9">
+                <a href="<%=base_info_url%>/<%=dataid%>" target="_blank" class="user-data-title" style="text-decoration: none;"><%=title%></a>
+                <span>[<%=ctime%>]</span>
+            </div>
+            <div class="col-xs-3" style="text-align: right;padding-left: 0px;">
+                <span id="filesize-<%=dataid%>"><%=nums%>个文件, 共<%=size%></span>
+                <span class="glyphicon glyphicon-refresh filesize-update-btn"
+                      onclick="javascript:PubDataList.update_size('<%=dataid%>')"></span>
+            </div>
+        </div>
+        <div class="row" style="height: 60px;">
+            <div class="col-xs-12 data-abstract">
+                <div style="text-indent: 2em;color: gray"><%=desc%></div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 8px;">
+            <div class="col-xs-6">
+                <span>由 <b><%=username%></b> 分享，下载需要
+                <b style="color: red"><%=points%></b> 积分，已下载 <b><%=downloads%></b> 次</span>
+            </div>
+    
+            <div class="col-xs-6" style="text-align: right">
+                <a href="/admin/share/update_thumb_html/<%=dataid%>" class="dataset-update-thumb">重新上传缩略图</a>
+                <a href="javascript:PubDataList.delete('<%=dataid%>')" class="dataset-del-btn">删除</a>
+                <a href="<%=base_info_url%>/<%=dataid%>" target="_blank">查看</a>
+            </div>
+        </div>
+    </div>
+    </script>
+    
+    <div class="container">
+        <div class="last_nav">
+                <div class="wrapper">
+                    <div>
+                    <span>
+                        感谢国家科技基础条件平台项目“国家基础科学数据共享服务平台”提供支持
+                    </span>
+                </div>
+                <div>
+                    <span class="footer-info">
+                        版权所有：中国科学院计算机网络信息中心
+                    </span>
+                    <span class="foot-info">
+                    <a href="http://beian.mit.gov.cn" style="color: white">备案序号：京ICP备09112257-62</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
