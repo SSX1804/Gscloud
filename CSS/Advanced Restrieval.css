@@ -1,10 +1,7 @@
 .fast_nav>.wrapper{
 margin: 0; 
 }
-body{
-    background-image: url(image\AdvancedRetrieval\canvas.png)
-    
-}
+
 .fast_nav{
     background-color: #019cde;
     height: 65px;
@@ -18,6 +15,8 @@ body{
 }
 .logo {
   cursor: pointer;
+  height: 65px;
+  margin-left: 65px;
 }
 .nav>li{
   cursor: pointer;
@@ -45,7 +44,7 @@ body{
     margin: 0%;
 }
 .fast_nav .nav>li{
-    float: left;
+   float: left;
     width: 94px;
     line-height: 65px;
     color: white;
@@ -69,21 +68,65 @@ body{
 }
 
 
-
+div.content{
+    height: 577px;
+}
 div.wrapper_2::after{
     display: block;
     content: " ";
     clear: both;
 background-color: lavender}
-div.wrapper_2>.pannel{
-    padding: 20px;
-    height: 160px;
-   
 
+
+div.wrapper_2>.pannel{
+    padding: 10px;
+    height: 180px;
+}
+
+div.wrapper_2{
+    width: 570px;
+    height: 250px;
+}
+.pannel div{
+    height: 25%;
+    width: 570px
+}
+
+.bar1 img,.bar1 span{
+    
+    margin: 10px;
+}
+.bar2 img,.bar2 div{
+   
+    margin: 10px;
+}
+.bar2 span{
+    margin: 15px;
+}
+
+div.bottom{
+    background-color: #0135de;
+    height: 12ex;
+    
 }
 div.wrapper_2{
-    width: 31%;
-    height: 200px;
+    float: left;
 }
-
-
+.col-xs-5{
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+}
+.col-xs-7{
+    float: left;
+    text-align: right;
+    margin-left: 300px;
+    margin-top: 35px;
+}
+.bar2_2{
+    padding-left: 45px;
+    padding-top: 20px;
+}
+span{
+    display: inline;
+}
