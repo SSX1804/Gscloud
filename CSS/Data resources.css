@@ -87,12 +87,190 @@ html {
 .middle{
   height: 1362px;
 }
+/* 中左部 */
 .middle .leftCatalog{
   width: 210px;
   height: 852.267px;
-  background-color: blueviolet;
   float: left;
+  margin-top: 10px;
+}
+.middle .freedata{
+  height: 41px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px solid #ccc;
+  margin: 0px;
+  background-color:#e8e9e9;
+}
+.middle .freedata span{
+  color: #008bcc;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.middle .freedata img{
+  width: 16px;
+  height: 16px;
+  padding-left: 5px;
+  padding-top: 13px;
+}
+.middle .leftCatalog>div>ul{
+  padding-left: 31px;
+  border-bottom: 1px solid #ccc;
+  background-color:#e8e9e9;
+}
+.middle .leftCatalog>div>ul>li{
+  line-height: 30px;
+  font-weight: 500;
+  padding-top: 8px;
+}
+.middle .commercedata{
+  height: 41px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px;
+  background-color:#e8e9e9;
+}
+.middle .commercedata span{
+  color: #008bcc;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.middle .commercedata img{
+  width: 16px;
+  height: 16px;
+  padding-left: 5px;
+  padding-top: 13px;
+}
+.middle .leftCatalog span{
+  cursor: pointer;
+}
+.middle .leftCatalog span:hover{
+  text-decoration:underline;
+  border-bottom: 1.5px solid black;
+}
+.middle .leftCatalog li{
+  cursor: pointer;
+}
+/* 数据标签 */
+.middle .datatag{
+  margin-top: 20px;
+  height: 290px;
+}
+.middle .datatag>div:nth-child(1){
+  height: 28.3px;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+  background-color:#e8e9e9;
+}
+.middle .datatag>div:nth-child(2){
+  height: 250px;
+  background-color: white;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+/* 球形 */
+#tagscloud a{
+  cursor: pointer;
+}
+#tagscloud a:hover { 
+  background-color: #008bcc;
+  text-decoration:underline;
+  border-bottom: 1.5px solid #334CFF;
+}
+
+#tagscloud {
+  width: 230px; 
+  height: 260px; 
+  position: relative; 
+  color: #008bcc;  
+  text-align: center; 
+}
+
+#tagscloud a { 
+  position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  color: #008bcc; 
+  font-family: Arial; 
+  text-decoration: none; 
+  margin: 0 10px 15px 0; 
+  line-height: 18px; 
+  text-align: center; 
+  padding: 1px 5px; 
+  display: inline-block; 
+  border-radius: 3px; 
+}
+#tagscloud .tagc1{
+ font-size: 18px;
+}
+#tagscloud .tagc1{
+  font-size: 22px;
+}
+#tagscloud .tagc1{
+  font-size: 24px;
+}
+#tagscloud .tagc1{
+  font-size: 26px;
+}
+#tagscloud .tagc1{
+  font-size: 28px;
 }
 .middle .rightCatalog{
-background-color: coral;
+float: right;
+height: 1362px;
+width: 925px;
+margin-top: 10px;
+}
+.rightCatalog>div:nth-child(1){
+height: 36.67px;
+background-color: aqua;
+width: 925px;
+}
+.rightCatalog>div:nth-child(2){
+  height: 36.67px;
+  background-color: red;
+  width: 925px;
+}
+.rightCatalog>div:nth-child(3){
+  height: 36.67px;
+  background-color: green;
+  width: 925px;
+}
+.rightCatalog>div:nth-child(5){
+  height: 36.67px;
+  background-color: green;
+  width: 925px;
+}
+  /* 九宫格 */
+.middle .rightCatalog .products{
+  width: 925px;
+}
+.middle .rightCatalog .products::after{
+  content: "";
+  display: block;
+  clear: both
+}
+.middle .rightCatalog .products>li{
+  float: left;
+  height: 295px;
+  width: 307px;
+}
+.middle .rightCatalog .products>li:nth-child(3n){
+  margin-right: 0px
+}
+.middle .rightCatalog>ul{
+  margin: 0px;
+  padding: 0px
+}
+.middle .rightCatalog>ul{
+  list-style: none
+}
+.image{
+  width: 270px ;
+  height: 169px ;
+  padding-left: 19.1px;
+  padding-top: 19.1px;
 }
