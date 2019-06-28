@@ -1,0 +1,156 @@
+/* 重置样式 */
+html {
+    font-size: 14px;
+    color: #333333;
+  }
+  body {
+    margin: 0;
+  }
+  ul,h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  .wrapper {
+    width: 1170px;
+    margin: 0 auto;
+  }
+  /* 顶端蓝色导航 */
+  .fast_nav>.wrapper::after{
+      display: block;
+      content: "";
+      clear: both;
+  }
+  .fast_nav{
+      background-color: #019cde;
+      height: 65px;
+  }
+  .fast_nav .logo {
+    cursor: pointer;
+  }
+  .fast_nav .nav>li{
+    cursor: pointer;
+  }
+  .fast_nav .signin{
+    cursor: pointer;
+  }
+  .fast_nav .nav>li:hover{
+    background-color: #008ecf;
+  }
+  .fast_nav .signin:hover{
+    background-color: #008ecf;
+  }
+  .fast_nav .logo{
+      float: left;
+      width: 305px;
+      margin: 0 auto;
+      line-height: 65px;
+      height: 65px;
+  }
+  .fast_nav .nav{
+      float: left;
+      margin-left: 20px
+  }
+  .fast_nav .nav>li{
+      float: left;
+      width: 94px;
+      line-height: 65px;
+      color: white;
+      font-size: 15px;
+      text-align: center;
+  }
+   .fast_nav .signin{
+      float: right;
+      line-height: 65px;
+      color: white;
+      font-size: 15px;
+      height: 65px;
+  }
+  .fast_nav .person{
+      height: 40px;
+      width: 50px;
+      line-height: 65px;
+      padding-top: 13px;
+  }
+  .fast_nav .signin>span{
+    padding-right: 20px;
+}
+
+
+    .footer-copyright {
+        text-align: left;
+        color: white;
+        
+    }
+    .foot-info {
+        vertical-align: text-bottom;
+        display: inline-block;
+        padding-bottom: 3px;
+    }
+
+.fast_nav>.wrapper::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.fast_nav{
+    background-color: #019cde;
+    height: 65px;
+}
+.fast_nav .logo {
+  cursor: pointer;
+}
+.fast_nav .nav>li{
+  cursor: pointer;
+}
+.fast_nav .signin{
+  cursor: pointer;
+}
+.fast_nav .nav>li:hover{
+  background-color: #008ecf;
+}
+.fast_nav .signin:hover{
+  background-color: #008ecf;
+}
+.fast_nav .logo{
+    float: left;
+    width: 305px;
+    margin: 0 auto;
+    line-height: 65px;
+    height: 65px;
+}
+.fast_nav .nav{
+    float: left;
+    margin-left: 20px
+}
+.fast_nav .nav>li{
+    float: left;
+    width: 94px;
+    line-height: 65px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+ .fast_nav .signin{
+    float: right;
+    line-height: 65px;
+    color: white;
+    font-size: 15px;
+    height: 65px;
+}
+.fast_nav .person{
+    height: 40px;
+    width: 50px;
+    line-height: 65px;
+    padding-top: 13px;
+}
+.fast_nav .signin>span{
+  padding-right: 20px;
+}

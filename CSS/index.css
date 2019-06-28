@@ -98,7 +98,7 @@ html {
    }
    .mianfeishuju{
      float: left;
-     margin-left: 90px;
+     margin-left: 70px;
      margin-right: 300px;
      text-align: left;
      width: 60px;
@@ -151,3 +151,162 @@ html {
     text-align: center;
   }
   /* 商业数据 */
+  .colxs2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .shangyeshuju{
+    float: left;
+    margin-left: 70px;
+    margin-right: 300px;
+    text-align: left;
+    width: 60px;
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+  .Screenshot2{
+    width: 100%;
+   
+  }
+  .more{
+    width: 45px;
+    text-align: right;
+    font-size: 12px;
+  }
+  .col-xs{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .col-xs1{
+    float: left;
+    margin-left: 80px;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .col-xs2{
+   float: left;
+   margin-left: 0px;
+   margin-right: 0px;
+   text-align: center;
+ }
+ .col-xs3{
+   float: left;
+   margin-left: 0px;
+   margin-right: 0px;
+   text-align: center;
+ }
+ .col-xs4{
+   float: left;
+   margin-left: 15px;
+   margin-right: 0px;
+   text-align: center;
+ }
+ /* 数据众包 */
+ .col-xs12{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.zhongbao{
+  float: left;
+  margin-left: 70px;
+  margin-right: 520px;
+  text-align: left;
+  width: 60px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.Screenshot3{
+  width: 100%;
+ 
+}
+.more-m{
+  width: 45px;
+  text-align: right;
+  font-size: 12px;
+}
+.col-xs{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.col-xs-1{
+  float: left;
+  margin-left: 80px;
+  margin-right: 20px;
+  text-align: center;
+}
+.col-xs-2{
+ float: left;
+ margin-left: 20px;
+ margin-right: 20px;
+ text-align: center;
+}
+.col-xs-3{
+ float: left;
+ margin-left: 20px;
+ margin-right: 0px;
+ text-align: center;
+}
+/* 新闻公告 */
+.col-xs-a3{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.col-xs-a4{
+  margin-bottom: 30px;
+}
+.Press-Releases{
+  float: left;
+  text-align: left;
+  width: 60px;
+  margin-left: 70px;
+  margin-right: 30px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.shot{
+  width: 100%;
+}
+/* .more-m2{
+  vertical-align: middle;
+} */
+/* 典型案例 */
+.col-xs-a5{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.col-xs-a6{
+  margin-bottom: 30px;
+}
+.Typical-Case{
+  float: left;
+  text-align: left;
+  width: 60px;
+  margin-left: 70px;
+  margin-right: 30px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.shot2{
+  width: 100%;
+}
+.col-xs-b1{
+  float: left;
+  margin-left: 80px;
+  margin-right: 20px;
+  margin-top: -10px;
+  text-align: center;
+}
+.col-xs-b2{
+ float: left;
+ margin-left: 20px;
+ margin-right: 20px;
+ margin-top: -10px;
+ text-align: center;
+}
+.col-xs-b3{
+ float: left;
+ margin-left: 20px;
+ margin-right: 0px;
+ margin-top: -10px;
+ text-align: center;
+}
