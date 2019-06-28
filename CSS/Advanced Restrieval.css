@@ -1,8 +1,8 @@
 .fast_nav>.wrapper{
 margin: 0; 
 }
-body{background-image: url(image\AdvancedRetrieval\canvas.png)
-   
+body{
+    background-image: url(image\AdvancedRetrieval\canvas.png)
     
 }
 .fast_nav{
@@ -73,8 +73,17 @@ body{
 div.wrapper_2::after{
     display: block;
     content: " ";
-    clear: both;}
+    clear: both;
+background-color: lavender}
 div.wrapper_2>.pannel{
-    float: left;
+    padding: 20px;
+    height: 160px;
+   
 
 }
+div.wrapper_2{
+    width: 31%;
+    height: 200px;
+}
+
+
