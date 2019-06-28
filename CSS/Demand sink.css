@@ -79,7 +79,7 @@
 /*网页介绍部分*/
 .introduce{
     width: 730px;
-    height: 40px;
+    height: 30px;
     border-bottom: 2px solid #ccc;
     float: left;
     margin-left: 50px;
@@ -90,9 +90,7 @@
     margin-top:5px;
 }
 
-.content >span{
-    margin-top: 10px;
-}
+
 .content{
     width: 700px;
     height: 30px;
@@ -101,11 +99,11 @@
     font-size: 13px;
 }
 .zuiyou{
-    width: 332px;
+    width: 333px;
     height: 25px;
     float: right;
     border-top: 2px solid #ccc;
-    margin-right: 47px;
+    margin-right: 46px;
     margin-top: -2px;
 }
 .picture-1 img{
@@ -114,3 +112,117 @@
 }
 
 /*右边中间部分*/
+.service{
+    width: 1085px;
+    height: 30px;
+    color: black;
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: bold;
+    margin-left:270px;
+    border-bottom: 2px solid #ccc;
+}
+.picture-2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left:270px;
+}
+.service-1{
+    width: 1085px;
+    height: 30px;
+    color: black;
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: bold;
+    margin-left:270px;
+    margin-top: 10px;
+    border-bottom: 2px solid #ccc;
+}
+.picture-3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:270px;
+}
+.service-2{
+    width: 1085px;
+    height: 30px;
+    color: black;
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: bold;
+    margin-left:270px;
+    margin-top: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+/*将块分成三列*/
+.container-1{
+    width: 1050px;
+    height: 446px;
+    margin-left:270px;
+    margin-top: 10px;
+}
+.con_left{
+    width: 340px;
+    height: 446px;
+    float: left;
+    margin-right: 15px;
+}
+.main{
+    width: 695px;
+    height: 446px;
+    float: left;
+}
+.con_middle{
+    width:340px;
+    height: 446px;
+    float: left;
+    margin-right: 15px;
+}
+.con_right{
+    width:340px;
+    height:446px;
+    float: left;
+}   
+.picture-4{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.text-1.p{
+    width: 340px;
+    height: 168px;
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 200%;
+}
+.picture-5{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.text-2{
+    margin-left: 10px;
+}
+.text-2.p{
+    width: 340px;
+    height: 168px;
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 200%;
+}
+.picture-6{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.text-3.p{
+    width: 340px;
+    height: 168px;
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 200%;
+}
+.text-3{
+    margin-left: 10px;
+}
