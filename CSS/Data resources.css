@@ -32,19 +32,19 @@ html {
       background-color: #019cde;
       height: 65px;
   }
-  .logo {
+  .fast_nav .logo {
     cursor: pointer;
   }
- .nav>li{
+  .fast_nav .nav>li{
     cursor: pointer;
   }
-  .signin{
+  .fast_nav .signin{
     cursor: pointer;
   }
-  .nav>li:hover{
+  .fast_nav .nav>li:hover{
     background-color: #008ecf;
   }
-  .signin:hover{
+  .fast_nav .signin:hover{
     background-color: #008ecf;
   }
   .fast_nav .logo{
@@ -52,6 +52,7 @@ html {
       width: 305px;
       margin: 0 auto;
       line-height: 65px;
+      height: 65px;
   }
   .fast_nav .nav{
       float: left;
@@ -72,11 +73,26 @@ html {
       font-size: 15px;
       height: 65px;
   }
-  .person{
-      height: 23px;
-      width: 23px;
+  .fast_nav .person{
+      height: 40px;
+      width: 50px;
       line-height: 65px;
-      padding-top: 20px;
-      padding-right: 10px;
+      padding-top: 13px;
   }
-  
+  .fast_nav .signin>span{
+    padding-right: 20px;
+}
+
+/* 中部 */
+.middle{
+  height: 1362px;
+}
+.middle .leftCatalog{
+  width: 210px;
+  height: 852.267px;
+  background-color: blueviolet;
+  float: left;
+}
+.middle .rightCatalog{
+background-color: coral;
+}
