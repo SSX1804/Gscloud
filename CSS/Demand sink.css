@@ -72,12 +72,45 @@
     width:1000px;
     height: 50px;
     color: #008bcc;
+    
 }
+
 
 /*网页介绍部分*/
 .introduce{
-    width: 220px;
-    height: 167px;
-    background-color: blueviolet;
+    width: 730px;
+    height: 40px;
+    border-bottom: 2px solid #ccc;
     float: left;
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    display: block;
+    margin-top:5px;
 }
+
+.content >span{
+    margin-top: 10px;
+}
+.content{
+    width: 700px;
+    height: 30px;
+    float: left;
+    margin-left:50px;
+    font-size: 13px;
+}
+.zuiyou{
+    width: 332px;
+    height: 25px;
+    float: right;
+    border-top: 2px solid #ccc;
+    margin-right: 47px;
+    margin-top: -2px;
+}
+.picture-1 img{
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+/*右边中间部分*/
