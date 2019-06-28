@@ -171,6 +171,53 @@ html {
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
+/* 球形 */
+#tagscloud a{
+  cursor: pointer;
+}
+#tagscloud a:hover { 
+  background-color: #008bcc;
+  text-decoration:underline;
+  border-bottom: 1.5px solid #334CFF;
+}
+
+#tagscloud {
+  width: 250px; 
+  height: 260px; 
+  position: relative; 
+  color: #008bcc;  
+  text-align: center; 
+}
+
+#tagscloud a { 
+  position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  color: #008bcc; 
+  font-family: Arial; 
+  text-decoration: none; 
+  margin: 0 10px 15px 0; 
+  line-height: 18px; 
+  text-align: center; 
+  padding: 1px 5px; 
+  display: inline-block; 
+  border-radius: 3px; 
+}
+#tagscloud .tagc1{
+ font-size: 18px;
+}
+#tagscloud .tagc1{
+  font-size: 22px;
+}
+#tagscloud .tagc1{
+  font-size: 24px;
+}
+#tagscloud .tagc1{
+  font-size: 26px;
+}
+#tagscloud .tagc1{
+  font-size: 28px;
+}
 .middle .rightCatalog{
 background-color: coral;
 }  
