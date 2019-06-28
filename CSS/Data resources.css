@@ -87,12 +87,62 @@ html {
 .middle{
   height: 1362px;
 }
+/* 中左部 */
 .middle .leftCatalog{
   width: 210px;
   height: 852.267px;
-  background-color: blueviolet;
   float: left;
+  margin-top: 10px;
+}
+.middle .freedata{
+  height: 41px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px solid #ccc;
+  margin: 0px;
+  background-color:#e8e9e9;
+}
+.middle .freedata span{
+  color: #008bcc;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.middle .freedata img{
+  width: 16px;
+  height: 16px;
+  padding-left: 5px;
+  padding-top: 13px;
+}
+.middle .leftCatalog>div{
+  background-color:#e8e9e9;
+}
+.middle .leftCatalog>div>ul{
+  padding-left: 31px;
+  border-bottom: 1px solid #ccc;
+}
+.middle .leftCatalog>div>ul>li{
+  line-height: 30px;
+  font-weight: 500;
+  padding-top: 8px;
+}
+.middle .commercedata{
+  height: 41px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px;
+  background-color:#e8e9e9;
+}
+.middle .commercedata span{
+  color: #008bcc;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.middle .commercedata img{
+  width: 16px;
+  height: 16px;
+  padding-left: 5px;
+  padding-top: 13px;
 }
 .middle .rightCatalog{
 background-color: coral;
-}
+}  
