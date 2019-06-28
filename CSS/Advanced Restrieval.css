@@ -130,3 +130,6 @@ div.wrapper_2{
 span{
     display: inline;
 }
+a{
+    text-decoration:none;
+}
