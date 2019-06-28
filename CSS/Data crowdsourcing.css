@@ -178,7 +178,11 @@ html {
   height: 50px;
   color: #008bcc;
 }
-
+/* 上传时间 */
+.btn-group{
+  float: left;
+  margin-left: 643px;
+}
 /*网页介绍部分*/
 .introduce{
   width: 220px;
