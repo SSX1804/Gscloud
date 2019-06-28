@@ -7,50 +7,164 @@
     <title>Advanced Retrieval</title>
     <link rel="stylesheet" href="CSS\Advanced Restrieval.css">
 </head>
-<body>
+<body background="image\AdvancedRetrieval\canvas.png">
     
     <div class="navbar">
         <!-- 顶端蓝色导航 -->
         <div class="fast_nav">
             <div class="wrapper">
                 <!-- 顶端导航logo -->
-                <div class="logo"><img src="./image/Data sourse/logo.png" alt=""></div>
+                <div class="logo"><a href="http://www.gscloud.cn/"><img src="image\AdvancedRetrieval\logo_01.png" alt=""></a> </div>
                 <!-- 顶端导航菜单 -->
               
                 <ul class="nav">
                     <li>高级检索</li>
-                    <li>数据资源</li>
-                    <li>数据众包</li>
-                    <li>在线计算</li>
-                    <li>平台信息</li>
+                    <li><a href="http://www.gscloud.cn/sources">数据资源</a></li>
+                    <li><a href="http://www.gscloud.cn/crowdsourcing/tasks/">数据众包</a></li>
+                    <li><a href="http://www.gscloud.cn/wps">在线计算</a></li>
+                    <li><a href="http://www.gscloud.cn/help/">平台信息</a></li>
                 </ul>
               
                <!-- 顶端导航登陆 -->
                <div class="wrapper signin">
                <div  class="signin">
                     <img class="person" src="./image/Data sourse/人头.png" alt="">
-                 <span class="signin">登录</span>
+                 <span class="signin"><a href="http://www.gscloud.cn/accounts/login">登录</a></span>
                </div>  
             </div>
         </div>
         </div>
 
     </div>
-
-    <div class="wrapper_2" style="background-color: cornsilk">
+<div class="content">
+   
+    <div class="wrapper_2" style="background-color: white">
         <div class="pannel">
-            
-
-
+            <div style="text-align: left" class="bar1">
+                <img src="image\AdvancedRetrieval\P1.png" alt="">
+                <span style="cursor: pointer" style="background: blue" style="color: white" 
+                >数据集    </span>
+                <span style="color: red">       *点击搜索数据集</span>
+            </div>
+            <div class="bar2">
+                <img src="image\AdvancedRetrieval\P2.png" alt="">
+                <span>行政区</span>
+                <span>经纬度</span>
+                <span>行列号</span>
+                <span>地图选择</span>
+                <span>矢量文件</span><hr>
 
             </div>
-            
-            
-        </div>
-    </div>
+
+            <div class="bar2_2">
+                    <div id="region-input-div" class="sel-option active">
+                            <select id="provinces-list">
+                        <option value="">省直辖市</option>
+                        <option value="11">北京市</option>
+                        <option value="12">天津市</option>
+                        <option value="13">河北省</option>
+                        <option value="31">上海市</option>
+                        <option value="61">陕西省</option>
+                        <option value="14">山西省</option>
+                        <option value="15">内蒙古自治区</option>
+                        <option value="21">辽宁省</option>
+                        <option value="22">吉林省</option>
+                        <option value="23">黑龙江省</option>
+                        <option value="37">山东省</option>
+                        <option value="41">河南省</option>
+                        <option value="42">湖北省</option>
+                        <option value="43">湖南省</option>
+                        <option value="44">广东省</option>
+                        <option value="45">广西壮族自治区</option>
+                        <option value="46">海南省</option>
+                        <option value="50">重庆市</option>
+                        <option value="32">江苏省</option>
+                        <option value="33">浙江省</option>
+                        <option value="34">安徽省</option>
+                        <option value="35">福建省</option>
+                        <option value="51">四川省</option>
+                        <option value="52">贵州省</option>
+                        <option value="53">云南省</option>
+                        <option value="54">西藏自治区</option>
+                        <option value="36">江西省</option>
+                        <option value="62">甘肃省</option>
+                        <option value="63">青海省</option>
+                        <option value="64">宁夏回族自治区</option>
+                        <option value="65">新疆维吾尔自治区</option>
+                        <option value="71">台湾省</option>
+                        <option value="81">香港特别行政区</option>
+                        <option value="82">澳门特别行政区</option>
+                    </select>
+                    
+                    <select id="city-list">
+                        <option value="">地级市州</option>
+                    </select>
+                    
+                    <select id="county-list">
+                        <option value="">区县旗</option>
+                    </select>
+                    
+                                    
+                        </div>
+            </div>
+            <div class="bar3">
+                <img src="image\AdvancedRetrieval\P3.png" alt="">
+                <div id="date-panel">
+                        <div style="display: inline-block; margin-right: 34px;" class="datadate">
+                            时间范围：
+                            <input style="width: 100px;" id="sdate-input" class="form-control search-input"> 至 
+                            <input style="width: 100px;" id="edate-input" class="form-control search-input">
+                        </div>
+                        <div style="display: inline-block;" class="month">
+                            月份：
+                            <select style="width: 60px;" id="data-month-sel">
+                                <option value="">月份</option>
+                                <option value="1">1月</option>
+                                <option value="2">2月</option>
+                                <option value="3">3月</option>
+                                <option value="4">4月</option>
+                                <option value="5">5月</option>
+                                <option value="6">6月</option>
+                                <option value="7">7月</option>
+                                <option value="8">8月</option>
+                                <option value="9">9月</option>
+                                <option value="10">10月</option>
+                                <option value="11">11月</option>
+                                <option value="12">12月</option>
+                            </select>
+                        </div>
+                    </div>
+            </div>
+     
+
+            </div>
+          </div>
 
 
-    </div>
+</div>
+    
+<div class="bottom">
+        <div class="footer-body">
+                <div class="container-fluid footer-bottom">
+                    <div class="row ">
+                        <div class="col-xs-5">
+                            <div>
+                                <span>感谢国家科技基础条件平台项目“国家基础科学数据共享服务平台”提供支持</span>
+                            </div>
+                            <span class="foot-info">版权所有：中国科学院计算机网络信息中心</span>
+                            <span class="foot-info"><a href="http://beian.miit.gov.cn" style="color: white">备案序号：京ICP备09112257-62</a></span>
+                        </div>
+                        <div class="col-xs-7">
+                            <span class="foot-info">电话：010-58812534&nbsp;&nbsp;&nbsp;&nbsp;邮箱：data@cnic.cn</span>
+                            <!-- <img src="http://dcs.conac.cn/image/blue_error.png" style="height: 50px; margin-top: -16px; margin-right: -15px;"> -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+
+    
     
 
 </body>
