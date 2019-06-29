@@ -91,6 +91,12 @@ html {
      font-size: 15px;
      text-align: center;
    }
+   .container>span{
+    float: left;
+    margin-left: 100px;
+    margin-right: 20px;
+    text-align: center;
+   }
    /* 免费数据 */
    .colxs{
      margin-top: 30px;
@@ -99,7 +105,7 @@ html {
    .mianfeishuju{
      float: left;
      margin-left: 70px;
-     margin-right: 300px;
+     margin-right: 230px;
      text-align: left;
      width: 60px;
      padding-left: 10px;
@@ -107,6 +113,7 @@ html {
    }
    .Screenshot{
      width: 100%;
+     margin-left: 10px;
     
    }
    .more{
@@ -120,35 +127,18 @@ html {
      margin-right: 30px;
      text-align: center;
    }
-   .col2{
+   .col{
     float: left;
     margin-left: 30px;
     margin-right: 30px;
     text-align: center;
   }
-  .col3{
-    float: left;
-    margin-left: 30px;
-    margin-right: 30px;
-    text-align: center;
-  }
-  .col4{
-    float: left;
-    margin-left: 30px;
-    margin-right: 30px;
-    text-align: center;
-  }
-  .col5{
-    float: left;
-    margin-left: 30px;
-    margin-right: 30px;
-    text-align: center;
-  }
-  .col6{
+  .cold{
     float: left;
     margin-left: 30px;
     margin-right: 0px;
     text-align: center;
+    margin-bottom: 10px;
   }
   /* 商业数据 */
   .colxs2{
@@ -179,27 +169,21 @@ html {
   }
   .col-xs1{
     float: left;
-    margin-left: 80px;
-    margin-right: 0px;
+    margin-left: 50px;
+    margin-right: 10px;
     text-align: center;
   }
-  .col-xs2{
+  .col-xsl{
    float: left;
    margin-left: 0px;
-   margin-right: 0px;
+   margin-right: 10px;
    text-align: center;
  }
- .col-xs3{
+ .col-xs2{
    float: left;
-   margin-left: 0px;
-   margin-right: 0px;
+   margin-left: 5px;
    text-align: center;
- }
- .col-xs4{
-   float: left;
-   margin-left: 15px;
-   margin-right: 0px;
-   text-align: center;
+   margin-bottom: 20px;
  }
  /* 数据众包 */
  .col-xs12{
@@ -228,24 +212,29 @@ html {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.col-xs-1{
+.col-xs-x{
   float: left;
-  margin-left: 80px;
-  margin-right: 20px;
+  margin-left: 70px;
+  margin-right: 0px;
   text-align: center;
 }
-.col-xs-2{
- float: left;
- margin-left: 20px;
- margin-right: 20px;
- text-align: center;
-}
-.col-xs-3{
- float: left;
- margin-left: 20px;
- margin-right: 0px;
- text-align: center;
-}
+
+.middle>span{
+  float: left;
+  margin-left: 70px;
+
+  text-align: center;
+ }
+  .middle11{
+    float: left;
+    margin-left: 70px;
+    margin-right: 20px;
+  }
+  .middle22{
+    float: left;
+    margin-bottom: 40px;
+  }
+  
 /* 新闻公告 */
 .col-xs-a3{
   margin-top: 30px;
@@ -258,7 +247,7 @@ html {
   float: left;
   text-align: left;
   width: 60px;
-  margin-left: 70px;
+  margin-left: 0px;
   margin-right: 30px;
   padding-left: 10px;
   padding-right: 5px;
@@ -266,10 +255,15 @@ html {
 .shot{
   width: 100%;
 }
-/* .more-m2{
-  vertical-align: middle;
-} */
-/* 典型案例 */
+
+.a{
+ float: left;
+ margin-left: 0px;
+ margin-right: 20px;
+ margin-top: 0px;
+ text-align: center;
+}
+
 .col-xs-a5{
   margin-top: 30px;
   margin-bottom: 30px;
@@ -281,7 +275,7 @@ html {
   float: left;
   text-align: left;
   width: 60px;
-  margin-left: 70px;
+  margin-left: 0px;
   margin-right: 30px;
   padding-left: 10px;
   padding-right: 5px;
@@ -291,7 +285,7 @@ html {
 }
 .col-xs-b1{
   float: left;
-  margin-left: 80px;
+  margin-left: 0px;
   margin-right: 20px;
   margin-top: -10px;
   text-align: center;
@@ -309,4 +303,29 @@ html {
  margin-right: 0px;
  margin-top: -10px;
  text-align: center;
+}
+/* 底部容器 */
+.last{
+  background: #0066a7;
+  float: left;
+  height: 60px;
+  width: 1395px;
+  margin-left: 1px;
+  margin-right: -15px;
+  margin-top: -45px;
+}
+.Explain{
+  width: 600px;
+  float: left;
+  margin-left: 5px;
+  color: white;
+  margin-top: 5px;
+
+}
+.last .tell{
+  float: right;
+  width: 400px;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
 }
