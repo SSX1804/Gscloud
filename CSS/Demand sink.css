@@ -43,8 +43,54 @@
     height: 16px;
     padding-left: 5px;
     padding-top: 13px;
+    margin-top: 20px;
 }
 
+.kuai2 span{
+    cursor: pointer;
+    height: 30px;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 5px;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.kuai2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kuai2-1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kuai2-2{
+    margin-bottom: 10px;
+}
+
+.kuai2-1 span{
+    cursor: pointer;
+    height: 30px;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 5px;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.kuai2-2 span{
+    cursor: pointer;
+    height: 30px;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 5px;
+    margin-top: 10px;
+    vertical-align: middle;
+    margin-left: 8px;
+    
+}
 
 .header>div.left{
     background-color: #e8e9e9;
@@ -69,12 +115,14 @@
 .kuai3{
     margin-left: 270px;
     background-color:#f5f5f5;
-    width:1000px;
+    width:1060px;
     height: 50px;
-    color: #008bcc;
-    
+    color: #008bcc;   
 }
 
+.kuai3 span{
+    margin-top: 300px;
+}
 
 /*网页介绍部分*/
 .introduce{
@@ -99,15 +147,15 @@
     font-size: 13px;
 }
 .zuiyou{
-    width: 333px;
+    width: 300px;
     height: 25px;
     float: right;
     border-top: 2px solid #ccc;
-    margin-right: 46px;
+    margin-right: 65px;
     margin-top: -2px;
 }
 .picture-1 img{
-    margin-left: 50px;
+    margin-left: 70px;
     margin-top: -20px;
 }
 
@@ -164,6 +212,7 @@
     height: 446px;
     margin-left:270px;
     margin-top: 10px;
+    margin-bottom: 25px;
 }
 .con_left{
     width: 340px;
@@ -226,3 +275,24 @@
 .text-3{
     margin-left: 10px;
 }
+
+/* 底部 */
+
+.last{
+    background: #0066a7;
+    height: 46px;
+  }
+  .Explain{
+    width: 600px;
+    float: left;
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .last .tell{
+    float: right;
+    width: 280px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+  }
