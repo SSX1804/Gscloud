@@ -169,7 +169,7 @@ html {
   }
   .col-xs1{
     float: left;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-right: 10px;
     text-align: center;
   }
@@ -214,8 +214,8 @@ html {
 }
 .col-xs-x{
   float: left;
-  margin-left: 50px;
-  margin-right: 10px;
+  margin-left: 70px;
+  margin-right: 0px;
   text-align: center;
 }
 
@@ -308,22 +308,23 @@ html {
 .last{
   background: #0066a7;
   float: left;
-  height: 46px;
+  height: 60px;
   width: 1395px;
-  margin-left: -245px;
+  margin-left: 1px;
   margin-right: -15px;
-  margin-top: -25px;
+  margin-top: -45px;
 }
 .Explain{
   width: 600px;
   float: left;
+  margin-left: 5px;
   color: white;
   margin-top: 5px;
 
 }
 .last .tell{
   float: right;
-  width: 280px;
+  width: 400px;
   text-align: center;
   padding-top: 15px;
   color: white;
