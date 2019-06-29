@@ -112,7 +112,7 @@ html {
   line-height: 3em;
   cursor: pointer;
 }
-.right .forth>ul>li,span{
+.right .forth>div>ul>li,span{
     list-style:none;
     float: left;
   line-height: 3em;
@@ -141,3 +141,9 @@ color: #008ecf;
     list-style:none;
     float: left;
   }
+  .xy>ul>li{
+    list-style:none;
+    float: right;
+  line-height: 3em;
+  cursor: pointer;
+}
